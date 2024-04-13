@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="title">
+        <h2>about</h2>
+        <p>
+          Plitvice Lakes National Park
+        </p>
+      </div>
+
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="./PLITVICE-LAKES.webp" alt="" />
+        </article>
+        <article class="about">
+          <!-- btn container -->
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="history">history</button>
+            <button class="tab-btn" data-id="location">location</button>
+            <button class="tab-btn" data-id="lakes">lakes</button>
+          </div>
+          <article class="about-content">
+          <div>
+            <!-- single item -->
+            <div class="content active" id="history">
+              <h4>history</h4>
+              <p>
+                The creation of the "Association for the Conservation and Enhancement of the Plitvice Lakes" in 1893 illustrates
+                a long history of dedication to the best possible conservation of what today constitutes the World Heritage property. 
+                Early conservation efforts were formalized when Plitvice Lakes became a national park in 1949. In 1997, the national 
+                park was enlarged on the grounds of protecting the entire catchment area of the lakes and most of the groundwater system.
+                Since the extension of the World Heritage property in 2000, the surface area of Plitvice Lakes National Park and the 
+                World Heritage property are identical.
+                
+              </p>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="location">
+              <h4>location</h4>
+              <p>
+                Located in Lika, covering the region that is bordered by mountains Mala Kapela, Medveđak and Gornja Plješevica,
+                National Park extends over an area of just under 30 thousand hectares (about 300 square kilometres), including 
+                forests (14 thousand hectares), water, meadows, pastures as well as scattered hamlets in between (Rastovača, 
+                Poljanak, Jezerce,Plitvica). It is a habitat of eleven forest communities including : 
+              </p>
+              <ul>
+                <li>beech</li>
+                <li>fir</li>
+                <li>spruce</li>
+                <li>pine</li>
+              </ul>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="lakes">
+              <h4>lakes</h4>
+              <p>
+                Sixteen interconnected lakes are grouped in Upper and Lower Lakes. The highest lake is Prošćansko situated at the 
+                altitude of 639 m while the lowest is Novakovića Brod at the altitude of 503 meters.First part of the Upper Lakes 
+                are formed as extension of basic substrates dolomite while Lower Lakes is the limestone canyon that extends into 
+                the canyon of Korana river.
+              </p>
+            </div>
+            <!-- end of single item -->
+          </div>
+        </article>
+        </article>
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
